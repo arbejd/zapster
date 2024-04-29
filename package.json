@@ -1,0 +1,22 @@
+{
+  "name": "zapster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbejd/zapster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arbejd/zapster/issues"
+  },
+  "homepage": "https://github.com/arbejd/zapster#readme",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
