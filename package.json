@@ -1,10 +1,11 @@
 {
   "name": "zapster",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "ts-node-dev index.ts"
+    "dev": "node --env-file=.env index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/arbejd/zapster#readme",
   "dependencies": {
-    "ts-node-dev": "^2.0.0"
+    "imap-simple": "^5.1.0",
+    "ntfy": "^1.5.3"
   }
 }
